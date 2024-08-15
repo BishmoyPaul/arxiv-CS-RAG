@@ -3,7 +3,7 @@
 This repository hosts the code for [ArXiv CS RAG](https://huggingface.co/spaces/bishmoy/Arxiv-CS-RAG), a Huggingface space for searching paper embeddings and querying using large language models (LLMs) of your choice.  
 
 ## How The Space Works
-![Watch the Demo](https://raw.githubusercontent.com/BishmoyPaul/arxiv-CS-RAG/main/assets/ArXiv-CS-RAG_Demo.mkv)
+https://github.com/user-attachments/assets/160a0fbd-3d59-49b1-9d4f-7535a7044e80
 
 - **Input a Question**: The user inputs a question into the interface.
 - **Abstract Retrieval**: The system uses ColBERTv2 to search ArXiv for the most relevant paper abstracts related to the question.
