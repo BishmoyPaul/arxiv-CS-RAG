@@ -16,5 +16,5 @@ https://github.com/user-attachments/assets/160a0fbd-3d59-49b1-9d4f-7535a7044e80
 - **LLM-Powered Answers**: Uses advanced LLMs like Mistral or Gemma to generate comprehensive answers grounded in the retrieved paper abstracts.
 
 ## Codes
-- [Create Embeddings from ArXiv Abstracts](https://github.com/BishmoyPaul/arxiv-CS-RAG/blob/main/generate_embeddings.ipynb)
+- [Create Embeddings from ArXiv Abstracts](https://www.kaggle.com/code/artemenon/arxiv-cs-rag-query-cs-papers-using-colbertv2/) | Alternatively, you can check out the code [here](https://github.com/BishmoyPaul/arxiv-CS-RAG/blob/main/generate_embeddings.ipynb) too
 - [Build Huggingface Space](https://huggingface.co/spaces/bishmoy/Arxiv-CS-RAG/tree/main)
