@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "arxiv-cs-rag"
+version = "0.1.0"
+description = "Reusable core package for the ArXiv CS RAG project."
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+    "arxiv",
+    "fastapi",
+    "google-generativeai",
+    "huggingface_hub",
+    "langchain<0.2",
+    "ragatouille<0.0.10",
+    "transformers[torch]<=4.49.0",
+    "uvicorn",
+]
+
+[project.optional-dependencies]
+ui = [
+    "gradio>=5.0.0,<6.0.0",
+]
+dev = [
+    "httpx>=0.27.0",
+    "pytest>=8.0.0",
+]
+
+[tool.pytest.ini_options]
+addopts = [
+    "-p",
+    "no:cacheprovider",
+]
+pythonpath = [
+    "src",
+]
+testpaths = [
+    "tests",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
