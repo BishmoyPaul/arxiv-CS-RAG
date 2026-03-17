@@ -1,0 +1,17 @@
+.git
+.gitignore
+.conda
+.pytest_cache
+pytest-cache-files-*
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.ipynb
+tests
+notebooks
+scripts
+rag_index_data
+dist
+build
+*.egg-info

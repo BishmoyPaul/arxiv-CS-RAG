@@ -1,0 +1,14 @@
+.env
+.conda/
+.tmp-pip/
+.pytest_cache/
+pytest-cache-files-*/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
